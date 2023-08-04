@@ -7,7 +7,7 @@ export default function CircularIndeterminateAndDeterminate() {
       <CircularProgress />
       <CircularProgress variant="determinate" value={25} />
       <CircularProgress color='secondary' variant="determinate" value={50} />
-      <CircularProgress variant="determinate" value={75} />
+      <CircularProgress color='warning' variant="determinate" value={75} />
       <CircularProgress variant="determinate" value={100} />
     </Box>
   );
