@@ -8,7 +8,12 @@
 // import { BottomAppBar } from "./components/MuiAppBar"
 // import BasicTextFields from "./components/MuiTextfield";
 // import { SelectTextFields } from "./components/MuiTextfield";
-import InputAdornments from "./components/MuiInputAddornments";
+// import InputAdornments from "./components/MuiInputAddornments";
+// import SimpleBottomNavigation from "./components/MuiBottomNavigation";
+// import CircularIndeterminate from "./components/MuiCircularProgress";
+import Container from '@mui/material/Container';
+import { Box } from '@mui/material';
+
 
 function App() {
   return (
@@ -23,7 +28,12 @@ function App() {
       <BottomAppBar/> */}
       {/* <BasicTextFields />
       <SelectTextFields /> */}
-      <InputAdornments/>
+      {/* <InputAdornments/> */}
+      {/* <SimpleBottomNavigation/> */}
+      
+      <Container maxWidth="lg">
+        <Box sx={{ bgcolor: '#cfe8fc', height: '100vh' }} />
+      </Container>
     </>
   );
 }
