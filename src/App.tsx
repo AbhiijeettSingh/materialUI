@@ -11,11 +11,13 @@
 // import InputAdornments from "./components/MuiInputAddornments";
 // import SimpleBottomNavigation from "./components/MuiBottomNavigation";
 // import CircularIndeterminate from "./components/MuiCircularProgress";
-import SimpleDialogDemo from './components/MuiDialog';
+// import SimpleDialogDemo from './components/MuiDialog';
 import Container from '@mui/material/Container';
 
-import Divider from '@mui/material/Divider';
+// import Divider from '@mui/material/Divider';
+// import { Drawer } from '@mui/material';
 // import { Box } from '@mui/material';
+import PermanentDrawerLeft from './components/MuiDrawer';
 
 
 function App() {
@@ -36,8 +38,9 @@ function App() {
       
       <Container maxWidth="lg">
         {/* <Box sx={{ bgcolor: '#cfe8fc', height: '100vh' }} /> */}
-        <SimpleDialogDemo/>
-        <Divider  sx={{marginTop: 32}}/>
+        {/* <SimpleDialogDemo/>
+        <Divider  sx={{marginTop: 32}}/> */}
+        <PermanentDrawerLeft/>
       </Container>
     </>
   );
