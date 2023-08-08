@@ -13,6 +13,8 @@
 // import CircularIndeterminate from "./components/MuiCircularProgress";
 import SimpleDialogDemo from './components/MuiDialog';
 import Container from '@mui/material/Container';
+
+import Divider from '@mui/material/Divider';
 // import { Box } from '@mui/material';
 
 
@@ -35,6 +37,7 @@ function App() {
       <Container maxWidth="lg">
         {/* <Box sx={{ bgcolor: '#cfe8fc', height: '100vh' }} /> */}
         <SimpleDialogDemo/>
+        <Divider  sx={{marginTop: 32}}/>
       </Container>
     </>
   );
